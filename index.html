@@ -9,28 +9,79 @@
   <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
   <script>
     async function  main() {
-      await liff.init({ liffId: "2006513162-b1y2lJ0q" })
+      await liff.init({ liffId: "2006513162-Joy5YXEn" })
       await liff.shareTargetPicker([{
       "type": "flex",
       "altText": "@รับเงินฟรี50",
   "type": "flex",
   "contents":{
-  "type": "carousel",
-  "contents": [
-    {
-      "type": "bubble",
-      "hero": {
-        "type": "image",
-        "url": "https://i.postimg.cc/NGHZVZDB/frt.jpg",
-        "size": "full"
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "size": "full",
+    "aspectRatio": "1.2:1",
+    "url": "https://lh3.googleusercontent.com/d/1ZF0Eot1ADViYM7ofJPVlREOxmLFKTayR",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "แชร์รับเครดิตฟรี 50",
+        "weight": "bold",
+        "size": "xl",
+        "color": "#ff001d",
+        "offsetBottom": "lg",
+        "align": "center"
       },
-      "body": {
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ทำกิจกรรมเสร็จรับเครดิตฟรีได้เลย",
+            "color": "#ffffff",
+            "align": "center"
+          },
+          {
+            "type": "separator",
+            "color": "#ffffff",
+            "margin": "sm"
+          },
+          {
+            "type": "text",
+            "color": "#ffffff",
+            "text": "- แชร์กิจกรรมเข้ากลุ่มไลน์ 5 กลุ่ม",
+            "offsetTop": "sm",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "color": "#ffffff",
+            "text": "- หรือส่งให้เพื่อนในไลน์ 10 คน",
+            "offsetBottom": "sm",
+            "margin": "md"
+          },
+          {
+            "type": "text",
+            "text": "ทำเสร็จแล้วแคปส่งให้แอดมิน",
+            "color": "#fdcf09",
+            "align": "center",
+            "offsetTop": "sm"
+          }
+        ],
+        "offsetBottom": "md"
+      },
+      {
         "type": "box",
         "layout": "vertical",
         "contents": [
           {
             "type": "box",
-            "layout": "vertical",
+            "layout": "horizontal",
             "contents": [
               {
                 "type": "box",
@@ -38,51 +89,61 @@
                 "contents": [
                   {
                     "type": "text",
-                    "text": "รับเครดิตฟรี เพียงสมัคร",
-                    "size": "xl",
+                    "text": "รับเครดิตฟรี",
+                    "size": "lg",
+                    "color": "#ffffff",
                     "align": "center",
-                    "color": "#fd1f87",
-                    "weight": "bold"
-                  },
-                  {
-                    "type": "text",
-                    "text": "และกดแชร์ตามเงื่อนไขด้านล่าง",
-                    "align": "center",
-                    "color": "#fd1f87",
-                    "size": "md"
+                    "gravity": "center"
                   }
                 ],
-                "borderWidth": "normal",
-                "borderColor": "#fd1f87",
-                "cornerRadius": "md",
                 "background": {
                   "type": "linearGradient",
                   "angle": "0deg",
-                  "startColor": "#3e3c3d",
-                  "endColor": "#3e3c3d"
+                  "startColor": "#000000",
+                  "endColor": "#ff001d"
+                },
+                "cornerRadius": "lg",
+                "paddingAll": "md",
+                "borderWidth": "medium",
+                "borderColor": "#ffffff",
+                "action": {
+                  "type": "uri",
+                  "label": "line",
+                  "uri": "https://lin.ee/Na43g96"
+                }
+              },
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "สมัครสมาชิก",
+                    "size": "lg",
+                    "color": "#000000",
+                    "gravity": "center",
+                    "align": "center",
+                    "weight": "bold"
+                  }
+                ],
+                "cornerRadius": "lg",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#fd8204",
+                  "endColor": "#fdcf09"
+                },
+                "paddingAll": "md",
+                "borderWidth": "medium",
+                "borderColor": "#e4e5e6",
+                "action": {
+                  "type": "uri",
+                  "label": "web",
+                  "uri": "https://mungmee999.vip/?clear=&openExternalBrowser=1"
                 }
               }
             ],
-            "paddingEnd": "xxl",
-            "paddingStart": "xxl",
-            "offsetBottom": "sm"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "- กดแชร์กิจกรรมไปยัง 𝗟𝗜𝗡𝗘 𝟱 กลุ่ม",
-                "color": "#ffffff"
-              },
-              {
-                "type": "text",
-                "text": "- หรือ ส่งให้เพื่อนใน 𝟭𝟬 คน / ก็ได้",
-                "color": "#ffffff"
-              }
-            ],
-            "offsetBottom": "sm"
+            "spacing": "lg"
           },
           {
             "type": "box",
@@ -91,211 +152,52 @@
               {
                 "type": "box",
                 "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "กดแชร์ให้เพื่อน",
-                      "uri": "https://liff.line.me/2006513162-b1y2lJ0q"
-                    },
-                    "style": "secondary",
-                    "height": "sm",
-                    "color": "#eda200"
-                  }
-                ],
-                "cornerRadius": "lg"
-              }
-            ]
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
+                "contents": [],
+                "paddingAll": "none"
+              },
               {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "รับเครดิตฟรี",
-                      "uri": "https://lin.ee/IUogjTZ"
-                    },
-                    "height": "sm",
-                    "style": "primary",
-                    "color": "#fd1f87"
-                  },
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "สมัครสมาชิก",
-                      "uri": "https://autovip789.com/"
-                    },
-                    "height": "sm",
-                    "style": "primary"
-                  }
-                ],
-                "spacing": "lg",
-                "cornerRadius": "lg"
+                "type": "text",
+                "text": "กดแชร์กิจกรรม",
+                "size": "lg",
+                "color": "#ffffff",
+                "weight": "bold",
+                "align": "center"
               }
             ],
-            "paddingAll": "sm",
-            "margin": "md",
-            "offsetBottom": "xs"
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#000000",
+              "endColor": "#999999"
+            },
+            "cornerRadius": "lg",
+            "paddingAll": "lg",
+            "borderColor": "#ffffff",
+            "margin": "lg",
+            "action": {
+              "type": "uri",
+              "label": "action",
+              "uri": "https://liff.line.me/2006513162-Joy5YXEn"
+            },
+            "maxHeight": "40px",
+            "justifyContent": "center",
+            "borderWidth": "medium"
           }
         ],
-        "background": {
-          "type": "linearGradient",
-          "angle": "0deg",
-          "startColor": "#000000",
-          "endColor": "#333333"
-        },
-        "paddingAll": "md",
-        "spacing": "md"
+        "spacing": "lg",
+        "margin": "md",
+        "offsetBottom": "sm"
       }
+    ],
+    "background": {
+      "type": "linearGradient",
+      "angle": "190deg",
+      "startColor": "#000000",
+      "endColor": "#d40111"
     },
-    {
-      "type": "bubble",
-      "hero": {
-        "type": "image",
-        "url": "https://lh3.googleusercontent.com/d/1tJMS3KcKheexfKUgFEEfRk2J87Hgegr8",
-        "size": "full",
-        "aspectRatio": "1:1",
-        "aspectMode": "cover"
-      },
-      "body": {
-        "type": "box",
-        "layout": "vertical",
-        "contents": [
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "text",
-                    "text": "🎰 2 เกมส์ยอดฮิต 🎰",
-                    "size": "xl",
-                    "align": "center",
-                    "color": "#0eabfd",
-                    "weight": "bold"
-                  },
-                  {
-                    "type": "text",
-                    "text": "- ยอดถอนสนั่นกันทุกวัน -",
-                    "align": "center",
-                    "color": "#fd1f87",
-                    "size": "md"
-                  }
-                ]
-              }
-            ],
-            "paddingEnd": "xxl",
-            "paddingStart": "xxl",
-            "offsetBottom": "sm"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "text",
-                "text": "Fortune Dragon / + 97.3%",
-                "color": "#ffffff"
-              },
-              {
-                "type": "text",
-                "text": "Wild Ape #3258 / + 98.7%",
-                "color": "#ffffff"
-              }
-            ],
-            "offsetBottom": "sm",
-            "alignItems": "center"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "vertical",
-                "contents": [
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "สมัครสมาชิก",
-                      "uri": "https://autovip789.com/"
-                    },
-                    "style": "primary",
-                    "height": "sm",
-                    "color": "#fd1f87"
-                  }
-                ],
-                "cornerRadius": "lg"
-              }
-            ],
-            "offsetTop": "lg"
-          },
-          {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
-              {
-                "type": "box",
-                "layout": "horizontal",
-                "contents": [
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "โปรโมชั่่น",
-                      "uri": "https://autovip789.com/promotion/"
-                    },
-                    "height": "sm",
-                    "style": "primary",
-                    "color": "#f70d23"
-                  },
-                  {
-                    "type": "button",
-                    "action": {
-                      "type": "uri",
-                      "label": "เข้าสู่ระบบ",
-                      "uri": "https://play.autovip789.com/login"
-                    },
-                    "height": "sm",
-                    "style": "primary",
-                    "color": "#0e5dfd"
-                  }
-                ],
-                "spacing": "lg",
-                "cornerRadius": "lg"
-              }
-            ],
-            "paddingAll": "sm",
-            "margin": "md",
-            "offsetTop": "lg"
-          }
-        ],
-        "background": {
-          "type": "linearGradient",
-          "angle": "0deg",
-          "startColor": "#000000",
-          "endColor": "#333333"
-        },
-        "paddingAll": "md",
-        "spacing": "sm"
-      }
-    }
-  ]
-}
-        
+    "paddingAll": "lg"
+  }
+}       
         
         
     }])
